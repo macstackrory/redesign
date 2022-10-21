@@ -1,0 +1,20 @@
+
+
+.persona-item {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin:auto;
+}
+ a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+
+ img {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   max-width: 1000px;
+ }
