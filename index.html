@@ -8,37 +8,50 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-			<div class="persona-container">
-        <img class="persona-item" src="./title.png" alt="title">
-        <img class="persona-item" src="./oldtitle.png" alt="oldtitle">
-        <img class="persona-item" src="./oldsite.png" alt="oldsite">
-
-
-        <a href="https://apps.lib.umich.edu/papyrus_making/pm_intro.html">Click here to see the original website</a>
-        <img class="persona-item" src="./analysis.png" alt="analysis">
-        <img class="persona-item" src="./info.png" alt="info">
-        <img class="persona-item" src="./usability.png" alt="usable">
-        <img class="persona-item" src="./lo.png" alt="lo">
-        <p>
-        <p>
-        <img class="persona-item" src="./lowphone.png" alt="lowphone">
-				<img class="persona-item" src="./lowtablet.png" alt="lowtablet">
-				<img class="persona-item" src="./lowcomputer.png" alt="lowcomputer">
-				<img class="persona-item" src="./styleguide.png" alt="styleguide">
-        <p>
-        <p>
-        <img class="persona-item" src="./hi.png" alt="hi">
-        <p>
-        <p>
-        <img class="persona-item" src="./hiphone.png" alt="hiphone">
-        <img class="persona-item" src="./hitablet.png" alt="hitablet">
-				<img class="persona-item" src="./hicomputer.png" alt="hicomputer">
-        <p>
-        <p>
-        <a href="https://macstackrory.github.io/papyrus/">Click here to see the redesigned website!</a>
-
-      </div>
-    </div>
+    <h1 style="color:SeaGreen; font-family: 'Lucida Console'; font-size: 40px;"><strong> Redesigning a Website</strong> </h1>
+    <p class=blurb> A classic UIUX assignment is to redesign an existing user interface. I chose <a href="https://apps.lib.umich.edu/papyrus_making/pm_intro.html">this website</a> to redesign because I remembered when I was researching ancient paper making skills I came across this on the University of Michigan Papyrus Collection site and thought it looked extremely primitive despite the interesting topic.
+    </p>
+    <p class=title> <strong>Here is the original design for the website:</strong>
+    </p>
+    <img src="oldsite.png">
+    <p class=title> <strong>Analyzing the Website</strong> </p>
+    <p class=blurb> Here are some of the usability issues I have identified with this website:
+    </p>
+    <ul class = persony-container>
+<li>The page does not resize correctly: it does not fill up the screen on a computer, making it hard for the viewer to read the information. On the phone, the page does not resize at all and leaves a large blank space on the right side of the page.</li>
+<li>The text and top banner are extremely left-aligned, which is not ideal for reading information. Ideally there would be a bigger margin</li>
+<li>The presentation is not memorable, while this is a formal academic setting at the University of Michigan, there can be more design tools implemented to make the information pop</li>
+<li>It is hard for the user to learn where to navigate back to the main page, I expected the top banner with the logo to be reactive and send me back to the main page but the only way to return is at the very bottom of the page there is a hypertext link to return to the main page </li>
+<li>The bottom logo for the Michigan Library is outdated and is not a link to the library, so without further research I would not have known this was associated with the University of Michigan Library or how to get more information</li>
+</ul>
+  <p class=blurb> I evaluated the accessibility using WAVE, a web accessibility evaluation tool, to identify potential issues with the webpage. Below are some of the issues WAVE found:
+  </p>
+  <ul class = persony-container>
+<li>There is no alternative text for images, mainly the top banner which holds a lot of information about the context of the website</li>
+<li>There is no identifier of the language the text is in so screen readers are not able to translate it accordingly</li>
+<li>The text is very small for those visually impaired</li>
+</ul>
+  <p class=blurb> I agree with all of these issues, even for those who are not visually impaired the text is very small and requires the viewer to zoom into the page in order to read the text. I also agree that alternative text and an identifier for language is important to help screen readers accurately portray the content of the webpage.
+  </p>
+  <p class=title> <strong>Prototyping the New Website</strong> </p>
+  <p class=blurb> First I used Balsamiq to create <strong>low-fidelity</strong> wireframe prototypes for what the new website would look like on different screens along with a style guide:
+  </p>
+  <img class="persona-item" src="./lowphone.png" alt="lowphone">
+  <img class="persona-item" src="./lowtablet.png" alt="lowtablet">
+  <img class="persona-item" src="./lowcomputer.png" alt="lowcomputer">
+  <img class="persona-item" src="./styleguide.png" alt="styleguide">
+  <p class=blurb> Then I used Figma to create <strong>high-fidelity</strong> prototypes for my new design of the website:
+  </p>
+  <img class="persona-item" src="./hiphone.png" alt="hiphone">
+  <img class="persona-item" src="./hitablet.png" alt="hitablet">
+  <img class="persona-item" src="./hicomputer.png" alt="hicomputer">
+  <p class=title> <strong>The Redesigned Website</strong> </p>
+  <p class=blurb> Below is a screenshot and link to the website I redesigned, the goal was to ma7ke the layout modern and simple.
+  </p>
+  <img src="papyrus.png">
+  <div style="text-align:center">
+  <a href="https://macstackrory.github.io/papyrus/">Click here to see the redesigned website!</a>
+  </div>
   </body>
 
 </html>
